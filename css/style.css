@@ -166,6 +166,11 @@ body {
     margin-bottom: 10px;
 }
 
+.enlace {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
 /* More info */
 .more-info {
     display: flex;
@@ -268,4 +273,64 @@ body {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-details {
+    color: #e0e0e0;
+    font-size: 120%;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.contact-details i {
+    margin-right: 10px;
+}
+
+.contact-form {
+    width: 60%;
+}
+
+.formulario {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #444;
+    color: white;
+    font-size: 110%;
+}
+
+.formulario-textarea {
+    height: 150px;
+}
+
+.send-button {
+    background-color: #95dc39;
+    border: none;
+    padding: 10px 20px;
+    font-size: 110%;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.send-button i {
+    margin-left: 10px;
+}
+
+.contact {
+    margin-bottom: 300px;
 }
