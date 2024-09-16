@@ -1,0 +1,83 @@
+
+/* CSS Document for Page "Animales", Reserva de Animales Valentino */
+
+/* Page made by Rodrigo Moreno Bielsa 1ºDAW*/
+
+/* Triple Box*/
+
+body{
+    background-image: url(../assents/images/elefantes.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
+    margin: 0;
+}
+
+/* Youtube link */
+.initial_box--link {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px black solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgba(252, 174, 29, 0.836);
+    color: black;
+}
+
+.initial_box--link:hover {
+    text-decoration: underline;
+    padding: 10px;
+    border: 2px black solid;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(248, 252, 29, 0.836);
+    color: black;
+}
+
+.initial_box--p {
+    text-align: center;
+}
+
+/*Animals box*/
+
+.triple_box{
+    height: 482px;
+    margin: 10px;
+    position: relative;
+}
+
+.triple_box-first{
+    margin-right: 13.5px;
+}
+
+.triple_box-second{
+    width: 32.3%;
+    height: 482px;
+    background-color: rgb(231, 234, 235);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.triple_box-third{
+    margin-left: 13.5px;
+}
+
+.triple_box--image{
+    width: 100%;
+    height: 250px;
+}
+
+.triple_box--title{
+    font-size:  80%;
+    color: rgb(245, 189, 5);
+}
+
+.triple_box--text{
+    color: black;
+    font-size: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    }

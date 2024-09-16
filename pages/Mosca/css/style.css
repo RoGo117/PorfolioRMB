@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	font-size: 1.15rem;
+	color: #ADFF2F;
+	font-family: 'lcd';
+}
+
+@font-face {
+	font-family: lcd;
+	src: url('../fuentes/lcd.ttf') format('truetype');
+}
+
+body {
+	background-image: url("../imagenes/fondo.jpg");
+}
+
+.contenedor {
+	display: flex;
+	width: 1100px;
+	margin: 0 auto;
+	border-bottom: 2px solid rgb(228, 228, 228);
+}
+
+/* Marcadores de tiempo y puntos */
+.marcador {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.4rem;
+	border-bottom: 2px solid rgb(228, 228, 228);
+}
+
+/* Solo para el Juego */
+.juego {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 0.5rem;
+}
+
+.juego__visor {
+	position: relative;
+	width: 800px;
+	height: 610px;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 0.25rem;
+}
+
+.juego__mosca{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	user-select: none; /* Evita la selección en todos los navegadores modernos */
+    -webkit-touch-callout: none; /* Evita la selección en dispositivos iOS */
+    -webkit-user-select: none; /* Evita la selección en navegadores basados en WebKit (como Safari) */
+    -moz-user-select: none; /* Evita la selección en navegadores basados en Gecko (como Firefox) */
+    -ms-user-select: none; /* Evita la selección en Internet Explorer/Edge */
+	-webkit-user-drag: none; /* Desactiva el arrastre en navegadores basados en WebKit (como Safari) */
+}
+
+/* Configuración del Juego */
+.configuracion {
+	width: 300px;
+}
+
+.configuracion__body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.configuracion__titulo {
+	text-align: center;
+	border-bottom: 2px solid rgb(228, 228, 228);
+	padding-bottom: 0.4rem;
+}
+
+.configuracion__avatar {
+	width: 70px;
+	height: 60px;
+	margin: 0.5rem 0.75rem;
+}
+
+.configuracion__fondo {
+	width: 125px;
+	height: 65px;
+	border-radius: 3px;
+	margin: 0.6rem;
+}
+
+.configuracion__moscagrande {
+	width: 80px;
+	height: 70px;
+}
+
+.configuracion__moscamediana {
+	width: 65px;
+	height: 50px;
+}
+
+.configuracion__moscapeque {
+	width: 35px;
+	height: 25px;
+}
+
+.configuracion__btn{
+	width: 290px;
+	margin: 1.35rem 0;
+	background-color:rgb(199, 5, 5);
+	padding:0.5rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	letter-spacing: 0.1em;
+	font-size: 1.35rem;
+	color: #ADFF2F;
+	font-weight: bold;
+	border:none;
+}
+
+.configuracion__btn:hover{
+	background-color: tomato;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!-- 	<link rel="stylesheet" href="./css/bootstrap.css"> -->
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Examen Moscas....</title>
+</head>
+
+<body>
+	<div class="contenedor" id="contenedor">
+
+
+		<!-- Juego-->
+		<section class="juego">
+
+			<!-- Marcadores-->
+			<h2 class="marcador">
+				<div class="marcador__tiempo">
+					<span>Tiempo:</span>
+					<span id="segundos">00</span><span id="centesimas">:00</span>
+				</div>
+
+				<div class="marcador__puntos">
+					<span>Puntos:</span>
+					<span id="puntos">00</span>
+				</div>
+			</h2>
+
+			<section id="fondo_juego" class="juego__visor">
+				<img src="imagenes/mosca1.png" id="mosca_juego" class="juego__mosca">
+			</section>
+		</section>
+
+
+		<!-- 	Configuración-->
+		<section>
+			<!-- Avatar -->
+			<section class="configuracion">
+				<h2 class="configuracion__titulo">
+					Cambiar Avatar
+				</h2>
+				<div class="configuracion__body" id="avatar">
+					<img src="imagenes/mosca1.png" class="configuracion__avatar">
+					<img src="imagenes/mosca2.png" class="configuracion__avatar">
+					<img src="imagenes/mosca3.png" class="configuracion__avatar">
+					<img src="imagenes/mosca4.png" class="configuracion__avatar">
+					<img src="imagenes/mosca5.png" class="configuracion__avatar">
+					<img src="imagenes/mosca6.png" class="configuracion__avatar">
+				</div>
+			</section>
+
+			<!-- Fondos -->
+			<section class="configuracion">
+				<h2 class="configuracion__titulo">
+					Cambiar Fondo
+				</h2>
+				<div class="configuracion__body" id="fondo">
+					<img src="imagenes/bosque.jpg" class="configuracion__fondo">
+					<img src="imagenes/campo.jpg" class=" configuracion__fondo">
+					<img src="imagenes/tundra.jpg" class=" configuracion__fondo">
+					<img src="imagenes/cumbre.jpg" class=" configuracion__fondo">
+				</div>
+			</section>
+
+			<!-- Tamaños -->
+			<section class="configuracion">
+				<h2 class="configuracion__titulo">
+					Cambiar Tamano
+				</h2>
+				<div class="configuracion__body" id="tamanio">
+						<img src="imagenes/mosca1.png"  class="configuracion__moscagrande">
+						<img src="imagenes/mosca1.png"  class="configuracion__moscamediana">
+						<img src="imagenes/mosca1.png" class="configuracion__moscapeque">
+				</div>
+			</section>
+
+			<section class="configuracion">
+				<!-- Botón Jugar -->
+				<button class="configuracion__btn" id="jugar">Jugar</button>
+			</section>
+
+		</section>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

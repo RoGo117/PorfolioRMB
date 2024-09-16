@@ -1,0 +1,174 @@
+ /* Cómo crear una regla (clases) */
+
+ /* Usaremos "." que equivale al comando "class", las "id" "#" se reservaran
+    para javascript*/
+
+@font-face {
+    font-family: fuente1;
+    src: url("../assets/fonts/work.ttf");
+}
+
+ body{
+    background-image: url(../assets/image/fondo2.jpg);
+}
+
+ nav{
+    margin-top: 30px;
+    flex: auto;
+    flex-direction: row;
+    text-align: center;
+    border-bottom: 2px gray solid;
+    padding-bottom: 30px;
+}
+
+.encabezado{
+    background-color: pink;
+    background-image: url(../assets/image/cabecera.jpg);
+    text-align: center;
+}
+
+.enlace{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(189, 106, 189);
+}
+
+.enlace:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.texto_encabezado{
+    color: white;
+}
+
+.container{
+    align-items: center center;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(242, 229, 245);
+}
+
+.portada{
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px gray solid;
+    margin-bottom: 5px;
+}
+
+main{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 90px;
+    padding-bottom: 70px;
+}
+
+p{
+    color: rgb(189, 106, 189);
+}
+
+/* HMTL "CURSOS"*/
+
+
+.titulo{
+    font-style: italic;
+}
+
+.videos{
+    margin-bottom: 30px;
+    border-bottom: 2px solid gray;
+}
+
+.cuerpo {
+    text-align: left;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+video{
+    width: 320px;
+    height: 210px;
+}
+
+.pdf{
+    text-decoration: none;
+    color: rgb(189, 106, 189);
+}
+
+/* HTML "CONTACTOS"*/
+
+table {
+    color: rgb(177, 85, 177);
+}
+
+.tr1{
+    background-color: rgb(224, 224, 224);
+}
+
+.tr2{
+    background-color: rgb(196, 196, 196);
+}
+
+.tr3{
+    background-color: rgb(175, 175, 175);
+}
+
+.tr4{
+    background-color: rgb(139, 139, 139);
+}
+
+/* HTML "TEST"*/
+
+legend{
+    color:  rgb(189, 106, 189);
+    font-style: italic;
+}
+
+.test{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color:  rgb(189, 106, 189);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.imgtablas{
+    padding-top: 4px;
+    padding-right: 5px;
+}
+
+.tabla1{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.dobleformulario{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+.dobleformulario1{
+    width: 49%;
+}
+
+.eleccion{
+    color:  rgb(189, 106, 189);
+    font-weight: bold;
+}
+
+.ultfieldset{
+    margin-bottom: 20px;
+    color:  rgb(189, 106, 189);
+}
+
+th{
+    padding-right: 3px;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Cursos</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="shorcut icon" href="/assets/image/flores1.jpg">
+        <style type="text/css"></style>
+        <meta charset="UTF-8" name="autor" content="Rodrigo Moreno">
+    </head>
+
+    <body>
+ 
+
+        <div class="container"> <!--El header y el footer pueden ir dentro o fuera del container.-->
+
+            <header> <!--Cabezera de la página -->
+                <div class="encabezado"><h1 class="texto_encabezado"> Floristerías DAW1</h1></div>
+      
+                <nav> <!-- Represesenta la sección de la página con enlaces a las otras páginas. -->
+                        <a class="enlace" href="../index.html"> INICIO | </a> 
+                        <a class="enlace" href="../pages/Cursos.html"> CURSOS | </a>
+                        <a class="enlace" href="../pages/Contacto.html"> CONTACTOS | </a>
+                        <a class="enlace" href="../pages/Test.html"> TEST | </a>
+                        <a class="enlace" href=""> QUIENES SOMOS</a>
+                </nav>
+      
+            </header> 
+
+            <main class="cuerpo">  <!--Contenido principal de la página.-->
+                <form action="url" method="post">
+                    <fieldset> <legend class="test"> Test Botánica</legend>
+                        <fieldset> <legend> Datos Personales</legend>
+
+                            <table>
+                                <tr>
+                                    <th> <label for="Nombre"> Nombre:</label> </th>
+                                    <th> <input type="text" name="Nombre" required size="30" maxlength="30" placeholder="Nombre..."/> </th>
+                                    <th> <label for="Apellidos"> Apellidos:</label> </th>
+                                    <th> <input type="text" name="Apellidos" size="35" maxlength="35" required placeholder="Apellidos..."/> </th>
+                                    <th> <label for="fecha"> Fecha: </label> </th>
+                                    <th> <input type="date" name="fecha" value="2000-01-01" min="1900-01-01" max="2024-01-01" req> </th>
+                                </tr>
+                                <tr>
+                                    <th> <label for="Poblacion"> Población:</label> </th>
+                                    <th> <input type="text" name="Poblacion" required size="27" maxlength="25" placeholder="Pblación..."/> </th>
+                                    <th> <label for="Provincia"> Provincia:</label> </th>
+                                    <th> <input type="text" name="Provincia" required size="32" maxlength="30" placeholder="Provincia..."/> </th>
+                                    <th> <label for="Edad"> Edad: </label> </th>
+                                    <th> <input type="range" name="Edad" min="0" max="100" value="50" placeholder="Edad..."> </th>
+                                </tr>
+                                <tr>
+                                    <th> <label for="Email"> Email:</label> </th>
+                                    <th> <input type="text" name="Email" required size="30" maxlength="30" placeholder="Email..."/> </th>
+                                    <th> <label for="WEB"> WEB:</label> </th>
+                                    <th> <input type="text" name="WEB" size="35" maxlength="35" required placeholder="WEB..."e/> </th>
+                                </tr>
+                            </table>
+
+                        </fieldset>
+
+                        <fieldset> <legend>Completa los espacios en blanco</legend>
+
+                            <table class="tabla1">
+                                <tr>
+                                    <th rowspan="4" class="imgtablas"> <img src="../assets/image/flores1.jpg" alt="Imagen de Flores"> </th>
+                                    <th> <label for="Nombre2"> Nombre:</label> </th>
+                                    <th> <input type="text" name="Nombre" required size="20" maxlength="20" placeholder="Nombre..."/> </th>
+                                    <th> <label for="Descripcion"> Descripción:</label> </th>
+                                </tr>
+                                <tr>
+                                    <th> <label for="Reino"> Reino:</label> </th>
+                                    <th> <input type="text" name="Reino" size="30" maxlength="30" required placeholder="Reino..."/> </th>
+                                    <th  rowspan="3"> <textarea  type="text" name="Descripcion" cols="45" rows="4" placeholder="Descripción..."></textarea> </th>
+                                </tr>
+                                <tr>
+                                    <th> <label for="Division"> División:</label> </th>
+                                    <th> <input type="text" name="División" required size="40" maxlength="40" placeholder="División..."/> </th>
+                                    
+                                </tr>
+                                <tr>
+                                    <th> <label for="Floracion"> Floración:</label> </th>
+                                    <th> <input type="text" name="Floracion" required size="40" maxlength="40" placeholder="Floración..."/> </th>
+                                </tr>
+                            </table>
+
+                            <table>
+                                <tr>
+                                    <th rowspan="4" class="imgtablas"> <img src="../assets/image/flores2.jpg" alt="Imagen de Flores"> </th>
+                                    <th> <label for="Nombre2"> Nombre:</label> </th>
+                                    <th> <input type="text" name="Nombre" required size="20" maxlength="20" placeholder="Nombre..."/> </th>
+                                    <th> <label for="Descripcion"> Descripción:</label> </th>
+                                </tr>
+                                <tr>
+                                    <th> <label for="Reino"> Reino:</label> </th>
+                                    <th> <input type="text" name="Reino" size="30" maxlength="30" required placeholder="Reino..."/> </th>
+                                    <th  rowspan="3"> <textarea  type="text" name="Descripcion" cols="45" rows="4" placeholder="Descripción..."></textarea> </th>
+                                </tr>
+                                <tr>
+                                    <th> <label for="Division"> División:</label> </th>
+                                    <th> <input type="text" name="División" required size="40" maxlength="40" placeholder="División..."/> </th>
+                                    
+                                </tr>
+                                <tr>
+                                    <th> <label for="Floracion"> Floración:</label> </th>
+                                    <th> <input type="text" name="Floracion" required size="40" maxlength="40" placeholder="Floración..."/> </th>
+                                </tr>
+                            </table>
+
+                        </fieldset>
+
+                        <div class="dobleformulario">
+                            <fieldset class="dobleformulario1"> <legend>Los musgos:</legend>
+                                <label for="musgos"></label>
+                                <div class="eleccion"><input type="radio" name="musgos" value="0" /> Son traquofitas</div>
+                                <div class="eleccion"><input type="radio" name="musgos" value="1" /> Tienen raices llamadas rizomas</div>
+                                <div class="eleccion"><input type="radio" name="musgos" value="2" /> No han conseguido independizarse del clima</div>
+                                <div class="eleccion"><input type="radio" name="musgos" value="3" /> Todas son falsas</div>
+                            </fieldset>
+    
+                            <fieldset class="dobleformulario1"> <legend>Las algas carofíceas se caracterizan por:</legend>
+                                <label for="musgos"></label>
+                                <div class="eleccion"><input type="radio" name="musgos" value="0" /> Tener falsas raices</div>
+                                <div class="eleccion"><input type="radio" name="musgos" value="1" /> Fabrican fragmoplasto en la citocinesis</div>
+                                <div class="eleccion"><input type="radio" name="musgos" value="2" /> Contener peroximosimas</div>
+                                <div class="eleccion"><input type="radio" name="musgos" value="3" /> Todas son correctas</div>
+                            </fieldset>
+                        </div>
+
+                        <fieldset> <legend>Selecciona la opción correcta</legend>
+
+                            <table>
+                                <tr>
+                                    <th> <label for="helecho">Un helecho es una: </label> </th>
+                                    <th> <select autocomplete="off" name="helecho">
+                                        <option>Briophyta</option>
+                                        <option>Pterydophyta</option>
+                                        <option>Espermafita</option>
+                                        <option>Cormofita</option>   
+                                    </select> </th>
+                                    <th> <label for="helecho">El tallo de una patata es:</label> </th>
+                                    <th> <select autocomplete="off" name="helecho">
+                                        <option>Tubérculo</option>
+                                        <option>Rizoma</option>
+                                        <option>Bulbo</option>
+                                        <option>Fruto</option>   
+                                    </select> </th>
+                                </tr>
+                                <tr>
+                                    <th> <label for="color_form">Color de Briophytas:</label></td> </th>
+                                    <th> <input type="color" name="color_form"> </th>
+                                    <th> <label for="polinización">Duración de la polinización de las gramineas:</label> </th>
+                                    <th> <input name="polinización" type="number" min="1" max="10" step="2" value="2" /> </th>
+                                </tr>
+                            </table>
+
+                        </fieldset>
+
+                        <fieldset class="ultfieldset"> <legend>Indica las áreas de la botanica en las que estás interesado</legend>
+                            <div>
+                                <input type="checkbox" name="Fitogeografía" value="0" /> Fitogeografía
+                                <input type="checkbox" name="Geobotánica" value="1" /> Geobotánica
+                                <input type="checkbox" name="Genética" value="2" /> Genética
+                                <input type="checkbox" name="Paleobotánica" value="3" /> Paleobotánica
+                                <input type="checkbox" name="Ecología" value="4" /> Ecología
+                            </div>
+                            <div> <label for="file_form"> Selecciona una imagen de cualquiera de los tipos anteriores </label>
+                                <input type="file" name="file_form">
+                            </div>
+
+                        </fieldset>
+
+                        <button type="reset"> Borrar todo</button> <button type="submit" src="testdam.php"> Enviar test &rarr;</button>
+
+                    </fieldset>
+                </form>
+            </main>
+
+            <footer> <!-- Pie de página-->
+                <p>Diseñado por: Lenguajes de Marcas DAM1 2.0 Talavera de la Reina 2014.</p>
+                <p>Si desea ver nuestros diseños puede hacerlo en nuestro sitio web 
+                    www.webdam1.com Además si tiene cualquier duda puede dirigirse a 
+                    nuestro correo info@webdam1.com </p>
+                <p>o bien a nuestros teléfonos: 555-555-555 / 666-666-666.</p>
+            </footer>
+
+        </div>
+
+
+
+    </body>
+
+</html> 

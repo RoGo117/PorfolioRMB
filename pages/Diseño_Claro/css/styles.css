@@ -1,0 +1,104 @@
+body{
+    color: #6d6868;
+    background-color: #f7f7f7;
+}
+.container{
+    margin: 0px auto;
+    width: 1200px;
+    outline:1px solid #dcdcdc;
+    padding: 1px 1px 1px 1px;
+}
+.div2header{
+    margin: 10px;
+    padding: 10px 10px;
+    outline:1px solid transparent;
+}
+.logo{
+    margin:0px 0px 0px 20px;
+    text-align: left;
+}
+.logo > img{
+    width: 300px;
+    height: 120px;
+}
+.redes{
+    text-align: right;
+    margin: 5px 50px 5px 5px;
+} 
+.menu{
+    padding: 1px 50px;
+    outline:1px solid transparent;
+    background-color: #eaeaea;
+    margin: 10px 10px 10px 10px;
+}
+a{
+    margin: 1rem;
+    text-decoration: none;
+}
+.divespacio{
+    margin: 10px;
+    padding: 2px;
+    outline:1px solid transparent;
+}
+.div4fotos{
+    margin: 5px;
+    border:1px solid transparent;
+    text-align: center;
+}
+.div4fotos > img{
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    text-align: center;
+}
+.divtexto{
+    padding: 0.3px 10px 0.3px 40px;
+    outline:1px solid transparent;
+    background-color: #eaeaea;
+    margin: 10px 5px 10px 5px;
+    text-align: justify;
+}
+.divcartas{
+    padding: 5px;
+    margin: 5px;
+    border:1px solid transparent;
+    display: flex;
+}
+.divcartaconfig{
+    width: 30rem;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border:1px solid transparent; 
+    align-items: right;
+    text-align: justify;
+}
+.divcartaconfig > p{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 20px;
+    border:1px solid transparent; 
+    font-size: 1.5rem;
+}
+.divfooter{
+    text-align: right;
+    padding: 1px 10px 1px 1px;
+    outline:1px solid transparent;
+    background-color: #eaeaea;
+    margin: 10px 10px 10px 10px;
+}
+.divcartas2 > button{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+.divcartas2{
+    padding: 5px;
+    margin: 5px;
+    border:1px solid transparent;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+    align-items: flex-end;
+}
+/* fuente          --> 6d6868
+fondo documento --> f7f7f7
+fondo menu       --> eaeaea */

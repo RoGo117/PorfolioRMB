@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!-- Page made by Rodrigo Moreno Bielsa 1ºDAW -->
+
+    <!-- Page "Principal"-->
+
+<head>
+        <!-- Page title-->
+        <title>Reserva de Animales - Principal</title>
+        <meta charset="UTF-8">
+
+        <!-- Page icon-->
+        <link rel="shortcut icon" href="../assents/images/logo.jpeg" type="image/x-icon">
+    
+        <!-- Links to CSS (page layout)-->
+        <!--Generic CSS link-->
+        <link rel="stylesheet" href="../css/style.css">
+        <!--Home ("Principal") CSS Link-->
+        <link rel="stylesheet" href="../css/style-principal.css">
+        <!--Check In ("Suscribirse") CSS Link-->
+        <link rel="stylesheet" href="../css/style-suscribirse.css">
+</head>
+<body>
+
+    <!-- Text Header -->  
+    <header class="header">
+        <nav class="navbar">
+          <!-- Title section --> 
+          <div class="nav__title">
+              <img class="nav__title-imglogo" src="../assents/images/logo.jpeg" alt="Logo página web (Orangutan)">
+              <h1 class="nav__title-text">Reserva de Animales Valentino</h1>
+          </div>
+          <!-- Links section -->
+          <div class="nav__nav">
+              <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./principal.html">Acerca de nosotros</a></li>
+                <li><a href="./Animales.html">Animales</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+                <li><a href="./Suscribirse.html">Suscribirse</a></li>
+              </ul>
+              <!-- Search section -->
+              <div class="search-container">
+                <form>
+                  <input type="text" placeholder="Buscar..." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+          </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <!--Section Title-->
+        <div class="subtitulo"><h2>Suscribirse</h2></div>
+
+        <!-- BOX STRUCTURE --> 
+        <main class="background_box">
+            <!-- First box --> 
+            <section class="initial_box">
+                <div class="initial_box--title"></div>
+                <div class="initial_box--text__second"> 
+                    <section>
+                        <!-- Check In form-->
+                        <form method="post" id="my-form" class="form-check_in">
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th colspan="2" class="form-check_in--title">Registrate</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="form-check_in--text">Gmail:</td>
+                                  <td><input type="email" name="gmail" placeholder="Gmail..." maxlength="120"  required></td>
+                                </tr>
+                                <tr>
+                                  <td class="form-check_in--text">Nombre:</td>
+                                  <td><input name="Nombre" type="text" placeholder="Nombre..." size="80" maxlength="60" required ></td>
+                                </tr>
+                                <tr>
+                                  <td class="form-check_in--text">Apellidos:</td>
+                                  <td><input type="text" name="last_name" placeholder="Apellidos..." maxlength="120"  required></td>
+                                </tr>
+                                <tr>
+                                  <td class="form-check_in--text">Número de teléfono:</td>
+                                  <td><input type="tel" name="phone_number" placeholder="Número de teléfono..." maxlength="30"  required></td>
+                                </tr>
+                              </tbody>
+                              <tfoot>
+                                <tr>
+                                    <td colspan="2" class="form-check_in--button">
+                                        <button type="submit" class="boton_enviar" class="form-check_in--button"> Enviar</button>
+                                        <button type="reset" class="boton_resetear" class="form-check_in--button"> Resetear</button>
+                                    </td>
+                                </tr>
+                              </tfoot>
+                            </table>
+                          </form>
+                    </section>
+
+                        <!--Form test-->
+                      <section class="form-encuesta">
+                        <fieldset>   <legend><b>E</b>ncuesta</legend>
+                            <table class="">
+                                <tr>
+                                    <td>
+                                        <fieldset>   <legend><b>H</b>ábitats <b>V</b>isitados</legend>
+                                            <div><input type="checkbox" name="pc" value="0" /> Zona de Jungla</div>
+                                            <div><input type="checkbox" name="tablet" value="1" /> Zona de Río</div>
+                                            <div><input type="checkbox" name="movil" value="2" /> Zona de Llanura</div>
+                                            <div><input type="checkbox" name="laptop" value="3" /> Zona de cuidados especiales</div>
+                                            <div><input type="checkbox" name="laptop" value="4" /> Zona exclusiva de Osos</div>
+                                        </fieldset>
+                                    </td>
+                                    <td>
+                                        <fieldset>   <legend><b>O</b>pinión <b>S</b>ervicios</legend>
+                                            <div><input type="radio" name="Nombre" value="0" /> Muy bueno</div>
+                                            <div><input type="radio" name="Nombre" value="1" /> Bueno</div>
+                                            <div><input type="radio" name="Nombre" value="2" /> Normal</div>
+                                            <div><input type="radio" name="Nombre" value="3" /> Malo</div>
+                                            <div><input type="radio" name="Nombre" value="4" /> Muy malo</div>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset> 
+                      </section>
+
+                      <!--Complaints section-->
+                      <section class="form-comments">
+                        <fieldset>   <legend ><b>P</b>roblemas y <b>Q</b>uejas</legend>
+                            <div> <label for="problemas">En caso de problemas, seleccione el motivo:</label>
+                                <select autocomplete="off" name="problemas">
+                                    <option selected>- Selecciona uno -</option>
+                                    <option>Problemas de conexión con la web</option>                   
+                                    <option>Problemas al comprar productos</option>                  
+                                    <option>Problemas al pedir cita</option>
+                                    <option>Problemas al registrarse</option>
+                                    <option>Problemas con la solicitud de ayudas</option>
+                                    <option>Problemas con donacione</option>                   
+                                    <option>Problemas al encontrar las instalaciones</option>                  
+                                    <option>Otro</option>      
+                                </select>
+                            </div>
+
+                            <div class="form-comments__file"> <label for="file_form"> Adjunte documentación con su queja o problema aquí: </label>
+                                <input type="file" name="file_form">
+                            </div>
+                        </fieldset>
+                      </section>
+
+                      <!--Comments section-->
+                      <section class="form-comments">
+                        <fieldset>   <legend ><b>C</b>omentarios</legend>
+                            <div> <label for="pais"></label>
+                                <textarea  placeholder="Escribe aquí tu comentario..." type="text" name="mensaje" cols="104" rows="4" maxlength="400"></textarea>
+                            </div>
+
+                            <div class="form-comments__file"> <label for="file_form"> Si deseas compartir fotos o comentarios sobre tu experiencia en nuestra reserva de animales, puedes compartirlas aquí: </label>
+                                <input type="file" name="file_form">
+                            </div>
+                        </fieldset>
+                      </section>
+                </div>
+            </section>
+
+        </main> <!-- End cuadrofondo-->
+    </div> <!-- End container-->
+    
+
+
+
+<!-- FOOTER SECTION -->
+<footer>
+
+  <div class="cuadrofooter">
+    <!--left box footer-->
+    <div class="cuadrofooter1">
+      <!--Footer logo-->
+      <div class="logo">
+        <img class="imglogo" src="../assents/images/logo.jpeg" alt="Logo página web (casco clon)">
+        <strong class="textologo"><i>Reserva de Animales Valentino</i></strong>
+      </div>
+      <!--Text box left footer-->
+      <p>La Reserva de animales Valentino tiene su nombre en honor al Orangutan Valentino de la escuela selvática de Borneo, los cuales nos inspiraron para crear esta reserva de animales y poder proteger con la ayuda de donaciones a cuantos nos sea posibles, dandoles refúgio, alimentos, entretenimiento, sanidad e incluso enseñanzas.</p>
+      <div class="cuadroiconos">
+        <a href="https://www.instagram.com/" class="enlaceredes" target="_blank"> <img src="../assents/images/logo_ig.png" alt="Logo de instagram" class="imglogoredes"></a>
+        <a href="https://twitter.com/login" class="enlaceredes" target="_blank"> <img src="../assents/images/logo_tw.avif" alt="Logo de twitter" class="imglogoredes"></a>
+        <a href="https://www.youtube.com/?gl=ES&hl=es" class="enlaceredes" target="_blank"> <img src="../assents/images/logo_yt.png" alt="Logo de youtube" class="imglogoredes"></a>
+      </div>
+    <!--END left footer-->
+    </div>
+
+    <!--right box footer-->
+    <div class="cuadrofooter2">
+      <!--Column "Animales"-->
+      <div class="enlacesfooter">
+        <div class="columnafooter">
+          <div class="enbacezado_enlacesfooter">Especies</div>
+          <a href="../pages/Animales.html#Orangutan" class="enlacefooter">Orangutan</a>
+          <a href="../pages/Animales.html#Gorila" class="enlacefooter">Gorila</a>
+          <a href="../pages/Animales.html#Koala" class="enlacefooter">Koala</a>
+          <a href="../pages/Animales.html#Tigre" class="enlacefooter">Tigre</a>
+        </div>
+      </div>
+      <!--Column "Contacto"-->
+      <div class="enlacesfooter">
+        <div class="columnafooter">
+          <div class="enbacezado_enlacesfooter">Contacto</div>
+          <a href="../pages/Suscribirse.html" class="enlacefooter">Politica de Privacidad</a>
+          <a href="../pages/Suscribirse.html" class="enlacefooter">Terminos y Condiciones</a>
+          <a href="../pages/Suscribirse.html" class="enlacefooter">Contacto</a>  
+        </div>
+     </div>
+    <!--End footer box 2-->
+    </div>
+  <!--End footer box-->
+  </div>
+    <!--Email link-->
+    <div class="textofinal_footer">
+      <div>Contacto GMAIL - </div><a class="enlacecorreo" href="mailto:rodrigo@ejercicio.segundotrimestre"> rodrigo@ejercicio.segundotrimestre</a>
+    </div>
+ 
+<!--END footer-->
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+
+/* CSS - CONTACTOS*/
+
+.table1{
+    border: 2px solid gray;
+    width: 100%;
+    height: 100%;
+}
+
+.th1{
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+.td1{
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+margin: 0;
+color: rgb(106, 168, 184);
+font-family: fuente1;
+font-size: 180%;
+text-transform: uppercase;
+text-shadow: none;
+}
+
+.datos{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tabla{
+    display: flex;
+    width: 70%;
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.mapa{
+    display: flex;
+    width: 70%;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.ubi{
+    width: 100%;
+    height: 250px;
+}
+
+.logo_icono{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+
+.texto2{
+color: black;
+font-size: 120%;
+font-family: monospace;
+padding-left: 10px;
+text-align: left;
+border-bottom: 2px solid gray;
+padding: 10px;
+display: flex;
+align-items: center;
+}
+
+.texto22{
+    color: black;
+    font-size: 120%;
+    font-family: monospace;
+    padding-left: 10px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    }
+
+i{
+    padding-left: 8px;
+}
+
+.formulario{
+    margin: 10px;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: rgb(132, 173, 207);
+}
+
+form{
+    padding: 20px;
+    border: 1px grey solid
+}
+
+h4{
+margin: 0;
+color: rgb(238, 238, 238);
+font-family: fuente1;
+font-size: 180%;
+text-transform: uppercase;
+padding-left: 20px;
+padding-right: 20px;
+text-shadow: 2px 2px 2px black;
+}
+
+label{
+    font-family: monospace;
+    font-size: 150%;
+    color: rgb(63, 63, 63);
+    margin-right: 20px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px grey solid;
+    height: 20px;
+}
+
+textarea{
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px grey solid;
+}
+
+.tabla2{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.tr2{
+    text-align: right;
+}
+
+.td2{
+    padding-bottom: 8px;
+}
+
+.td3{
+    text-align: left;
+}
+
+.td4{
+    text-align: center;
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+
+button {
+    border-radius: 15%;
+    border: grey 2px solid;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+button:hover{
+    border-radius: 15%;
+    border: grey 2px solid;
+    padding: 20px;
+    background-color: rgb(58, 123, 207);
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+

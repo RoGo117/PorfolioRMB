@@ -1,0 +1,239 @@
+
+/* CSS General Document, Reserva de Animales Valentino */
+
+/* Page made by Rodrigo Moreno Bielsa 1ºDAW*/
+
+/* Title Font  */
+@font-face {
+    font-family: fuenteTitle;
+    src: url(../assents/fonts/BADABB__.TTF);
+}
+
+/* Extra Font */
+@font-face {
+    font-family: fuente1;
+    src: url(../assents/fonts/Oswald-VariableFont_wght.ttf);
+    }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+/* HEADER SECTION */
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+
+    max-width: 2000px;
+    min-width: 600px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+}
+
+.nav__title {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 175, 71);
+    font-family: fuenteTitle;
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 20%;
+    border-right: #3f3f3f 1px solid;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+    letter-spacing: 4px;
+}
+
+.nav__title-imglogo {
+    width: 75px;
+    height: 80px;
+}
+
+.nav__title-text {
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.nav__nav {
+    width: 80%;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    width: 80%;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.nav-links li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.search-container {
+    margin-right: 16px;
+}
+
+.search-container input {
+    padding: 6px;
+    margin-right: 8px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.search-container button {
+    background-color: #e5e7e5;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Footer*/
+
+footer{
+    background-color: 64748b;
+    background-color:rgb(19, 19, 19);
+    width: auto;
+    color: rgb(171, 171, 180);
+    font-family: fuente1;
+    text-align: justify;
+    padding: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: absolute;
+}
+
+.cuadrofooter{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(171, 171, 180);
+    padding-bottom: 25px;
+    margin-left: 150px;
+}
+
+/*Left footer box*/
+.cuadrofooter1{
+    width: 49%;
+    border-right: double grey 2px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+
+/*Right footer box*/
+.cuadrofooter2{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    text-align: center;
+}
+
+.imglogo{
+    width: 50px;
+    height: 60px;
+}
+
+.textologo{
+    font-size: 1.5rem;
+    font-variant:small-caps;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+/*Media Links*/
+.imglogoredes{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cuadroiconos{
+    text-align: right;
+}
+
+/*Right column footer*/
+.columnafooter{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.enbacezado_enlacesfooter{
+    color: white;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+/*Links Footer*/
+.enlacefooter{
+    color: rgb(171, 171, 180);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.enlacefooter:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.textofinal_footer{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 800px;
+    font-family: monospace;
+    font-size: 130%;
+}
+
+.enlacecorreo{
+    color: rgb(29, 53, 97);
+    text-decoration: none;
+}
+
+.enlacecorreo:hover{
+    color: rgb(55, 91, 168);
+}

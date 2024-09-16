@@ -1,0 +1,300 @@
+
+/* CSS Document for Page 2 "Introducciín", Halo CE Art */
+
+/* Page made by Rodrigo Moreno Bielsa 1ºDAW*/
+
+/* Title Font  */
+@font-face {
+    font-family: fuenteSW;
+    src: url(../assents/fonts/STARWARS.ttf);
+}
+
+/* Extra Font */
+@font-face {
+    font-family: fuente1;
+    src: url(../assents/fonts/Oswald-VariableFont_wght.ttf);
+    }
+
+
+.fondo{
+background-color: rgba(41, 83, 83, 0.712);
+background-image: url(../assents/images/fondo.png);
+background-repeat: repeat;
+background-size: contain;
+margin: 0;
+}
+
+/* HEADER SECTION */
+header{
+width: auto;
+background-image: url(../assents/images/jangofeet.png);
+background-size: cover;
+background-position: center 20%;
+}
+
+.imagenfondo{
+height: 260px;
+}
+
+.cabecera{
+color: white;
+font-family: fuenteSW;
+font-size: x-large;
+text-transform: uppercase;
+margin-left: 80px;
+display: inline-block;
+position: absolute;
+margin-top: 140px;
+}
+
+.enlace{
+border-radius: 30%;
+border: 1px solid transparent;
+background-color: rgb(2, 18, 29);
+padding: 5px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 10px;
+margin-left: 20px;
+margin-right: 20px;
+color: white;
+display: inline-block;
+text-decoration: none;  
+text-transform: uppercase;
+font-size: 120%;
+box-shadow: black 2px 2px 2px;
+}
+    
+.enlace:hover{
+background-color: rgb(39, 129, 170);
+border: 1px solid white;
+}
+        
+.enlace:active{
+background-color: rgb(39, 129, 170);
+}
+
+.cuadroenlaces{
+background-color: rgb(20, 54, 68);
+height: 50px;
+width: 100%;
+margin-top: 80px;
+text-align:  center;
+box-shadow: black 5px 5px 5px;
+padding-bottom: 5px;
+}
+
+/* Remove the margin from the title so that it does not create unwanted spacing*/
+h1{
+margin: 0px;
+text-shadow: 2px 2px black;
+}
+
+
+/* Container of the entire structure*/
+.container{
+align-items: center center;
+width: 80%;
+margin: 0 auto;
+margin-top: 30px;
+}
+
+
+/* Subtitle of the page */
+
+.subtitulo{
+font-size: 150%;
+font-family: monospace;
+text-align: center;
+margin-top: 60px;
+margin-bottom: 20px;
+}
+   
+h2{
+margin: 0;
+color: rgb(126, 170, 206);
+font-family: fuenteSW;
+font-size: 300%;
+text-transform: uppercase;
+}
+
+/* MAIN STRUCTURE SECTION*/
+.cuadrofondo{
+width: 100%;
+height: auto;
+background-color: rgba(3, 3, 3, 0.664);
+margin-bottom: 40px;
+box-shadow: black 5px 5px 5px;
+}
+
+/* First (initial) box*/
+
+.cuadro{
+margin: 10px;
+border: 2px rgb(192, 205, 223) solid;
+background-color: rgb(231, 234, 235);
+margin-bottom: 30px;
+padding-bottom: 20px;
+}
+
+.texto{
+color: black;
+font-size: 120%;
+font-family: monospace;
+padding-left: 2px;
+margin-left: 10%;
+margin-right: 10%;
+text-align: justify;
+}
+
+.texto_introduccion{
+color: black;
+font-size: 120%;
+font-family: monospace;
+padding-left: 2px;
+margin-left: 20%;
+margin-right: 20%;
+text-align: justify;
+}
+
+p{
+margin-bottom: 30px;
+}
+
+.titulo{
+color: white;
+font-size: 150%;
+font-family: fuenteSW;
+text-shadow: 2px 2px black;
+font-weight: bold;
+background-color: rgb(46, 88, 116);
+text-transform: uppercase;
+padding: 10px;
+text-align: center;
+}
+
+h3{
+margin: 0px;
+text-shadow: 2px 2px black;
+font-size: 30px;
+}
+
+aside{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: 64748b;
+    background-color:rgb(19, 19, 19);
+    width: auto;
+    color: rgb(171, 171, 180);
+    font-family: fuente1;
+    text-align: justify;
+    padding: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 70px;
+}
+
+.cuadrofooter{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(171, 171, 180);
+    padding-bottom: 25px;
+    margin-left: 150px;
+}
+
+/*Left footer box*/
+.cuadrofooter1{
+    width: 49%;
+    border-right: double grey 2px;
+    padding-right: 50px;
+}
+
+/*Right footer box*/
+.cuadrofooter2{
+    width: 49%;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    text-align: center;
+}
+
+.imglogo{
+    width: 50px;
+    height: 60px;
+}
+
+.textologo{
+    font-size: 1.5rem;
+    font-variant:small-caps;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+/*Media Links*/
+.imglogoredes{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cuadroiconos{
+    text-align: right;
+}
+
+/*Right column footer*/
+.columnafooter{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.enbacezado_enlacesfooter{
+    color: white;
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+/*Links Footer*/
+.enlacefooter{
+    color: rgb(171, 171, 180);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.enlacefooter:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.textofinal_footer{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 800px;
+    font-family: monospace;
+    font-size: 130%;
+}
+
+.enlacecorreo{
+    color: rgb(29, 53, 97);
+    text-decoration: none;
+}
+
+.enlacecorreo:hover{
+    color: rgb(55, 91, 168);
+}

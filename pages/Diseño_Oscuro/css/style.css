@@ -1,0 +1,170 @@
+* {
+    font-family: sans-serif;
+}
+
+#titulo{
+    text-align: center right;
+    font-size: 285%;
+    color: #999;
+    font-weight:bold;
+    font-family: monospace;
+    padding-left: 25px;
+}
+
+#container{
+    margin: 0px auto;
+    width: 1300px;
+    padding: 1px 1px 1px 1px;
+}
+
+#subtitulo{
+    text-align: center right;
+    font-size: 120%;
+    color: #999;
+    font-family: Century Gothic;
+    word-spacing: 1px;
+    padding-left: 25px;
+    font-weight:bold;
+}
+
+#cuadro1{
+    height: 110px;
+    border: 2px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 34px;
+    margin-top: 8px;
+    padding: 1px;
+    border-color: #999;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: unset;
+    border-right-style: unset;
+}
+
+#cuadro2{
+    width: 200px;
+    height: 600px;
+    border: 2px solid;
+    margin: 1px;
+    padding: 1px;
+    border-color: #999;
+    border-top-style: unset;
+    border-bottom-style: unset;
+    border-left-style: unset;
+    border-right-style: dotted;
+    position: relative;
+}
+
+#cuadro3{
+    width: 335px;
+    height: 600px;
+    border: 2px solid;
+    margin: 1px;
+    padding: 1px;
+    margin-left: 215px;
+    margin-top: 10px;
+    border-color: #999;
+    border-top-style: unset;
+    border-bottom-style: unset;
+    border-left-style: unset;
+    border-right-style: dotted;
+    position: relative;
+    top: -473px;
+}
+
+#cuadro4{
+    width: 450px;
+    height: 650px;
+    border: 2px solid;
+    margin: 1px;
+    padding: 1px;
+    border-color: #999;
+    border-top-style: unset;
+    border-bottom-style: unset;
+    border-left-style: unset;
+    border-right-style: unset;
+    position: relative;
+    top: -1075px;
+    left: 570px;
+}
+
+#cuadrofondo{
+    padding: 2px;
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-right: 110px;
+    background-color: #404347;
+    /* background-image: url(../Assets/images/fondo.gif); Medio raro el fondo*/
+}
+
+#encabezados{
+    text-align: center right;
+    font-size: 100%;
+    color: #999;
+    font-family: Century Gothic;
+    padding-left: 25px;
+    font-weight:bold;
+}
+
+#cuadrot1{
+    border: 2px solid;
+    margin: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-color: #999;
+    border-top-style: dotted;
+    border-bottom-style: unset;
+    border-left-style: unset;
+    border-right-style: unset;
+}
+
+#enlaces{
+    color: #60C3DB;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+#cuadrot2{
+    border: 2px solid;
+    margin: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-color: #999;
+    border-top-style: dotted;
+    border-bottom-style: unset;
+    border-left-style: unset;
+    border-right-style: unset;
+}
+
+#imagen1{
+    border: 2px solid;
+    border-color: #999;
+    width: 280px;
+    height: 160px;
+}
+
+#cuadrot3{
+    border: 2px solid;
+    margin: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-color: #999;
+    border-top-style: dotted;
+    border-bottom-style: unset;
+    border-left-style: unset;
+    border-right-style: unset;
+}
+
+#imagen2{
+    border: 2px solid;
+    border-color: #999;
+    width: 390px;
+    height: 160px;
+}
+
+#texto1{
+    color: #999;
+    text-decoration: none;
+    font-size: 80%;
+}
